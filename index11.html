@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> KAVINA</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            
+            gap: 10px;
+        }
+        .box{
+            background: lightblue;
+           padding: 20px;
+           text-align: center;
+        }
+        @media(max-width:600px){
+            .container{
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+
+    <div class="container">
+    <div class="box"> box 1</div> 
+    <div class="box"> box 2</div> 
+    <div class="box"> box 3 </div>
+    <div class="box"> box 4 </div>
+    </div>
+    
+</body>
+</html>
